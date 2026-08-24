@@ -1,0 +1,33 @@
+# Soil Moisture Monitoring System
+
+An ESP32-based soil moisture monitoring system designed to measure the moisture level of soil using a soil moisture sensor.
+
+## Description
+
+This project uses an ESP32 and a soil moisture sensor to monitor the moisture content of soil. The sensor provides a signal corresponding to the moisture level, which is read and processed by the ESP32.
+
+The system can be used to monitor soil conditions and determine whether the soil requires watering.
+
+## Components
+
+- ESP32
+- Soil Moisture Sensor
+- Breadboard
+- Jumper Wires
+- USB Cable
+
+## Working
+
+1. The soil moisture sensor is placed in the soil.
+2. The sensor detects the moisture level of the soil.
+3. The sensor output is connected to an input pin of the ESP32.
+4. The ESP32 reads the sensor value.
+5. The moisture reading is used to determine the soil condition.
+
+## Technologies Used
+
+- ESP32
+- Arduino IDE
+- Embedded C/C++
+- Soil Moisture Sensor
+
